@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_rank_score_list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Rank" />
+
+    <TextView
+        android:id="@+id/tv_name_score_list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_rank_score_list_dialog"
+        android:layout_alignBottom="@+id/tv_rank_score_list_dialog"
+        android:layout_centerHorizontal="true"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_score_score_list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_name_score_list_dialog"
+        android:layout_alignBottom="@+id/tv_name_score_list_dialog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Score" />
+</RelativeLayout>
